@@ -1,0 +1,41 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    outline:none;
+    font-family:'Poppins',sans-serif;
+
+}
+body{
+    background:linear-gradient(#4568dc,#B06AB3) no-repeat center fixed;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.textField{
+    position:relative;
+    height:450px;
+    width:450px;
+    border:1px solid;
+}
+.main .textField div{
+    height:90px;
+    width:inherit;
+    display:flex;
+    flex:1;
+}
+.main .textField div  input{
+    height:100%;
+    width:100%;
+}
+.main .btn{
+    border-radius:3px;
+    border:1px solid red;
+}
+input[value]{
+    font-size:25px;
+    font-weight:700;
+    color:rgb(255,0,0);
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+<form name="calc" class="textField">
+    <div class = "screen">
+        <input type="text" name = "screen"  class="screen" value="" readonly>
+    </div>
+    <div class = "btn">
+        <input type = "button" name="clear" value="clear" onclick= clearNumber()>
+    </div>
+    <div class = "btn">
+        <input type="button" name="1" value="1" onclick=valueButton(this)>
+        <input type="button" name="2" value="2" onclick=valueButton(this)>
+        <input type="button" name="3" value="3" onclick=valueButton(this)>
+        <input type="button" name="plus" value="+" onclick=valueButton(this)>
+</div>
+<div class = "btn">
+<input type="button" name = "4" value ="4" onclick=valueButton(this)>
+<input type="button" name="5" value="5" onclick=valueButton(this)>
+<input type="button" name="6" value="6" onclick=valueButton(this)>
+<input type="button" name="-" value="-" onclick=valueButton(this)>
+    </div>
+    <div class = "btn">
+<input type="button" name="7" value="7" onclick=valueButton(this)>
+<input type="button" name="8" value="8" onclick=valueButton(this)>
+<input type="button" name="9" value="9" onclick=valueButton(this)>
+<input type="button" name="mul" value="*" onclick=valueButton(this)>
+    </div>
+    <div class="btn">
+        <input type="button" name="0" value="0" onclick=valueButton(this)>
+        <input type="button" name="/" value="/" onclick=valueButton(this)>
+        <input type="button" name="." value="." onclick = valueButton(this)>
+        <input type="button" name="=" value="=" onclick=Result()>
+    </div>
+</div>
+</form>
+<script src="main.js"></script>    
+</body>
+</html>
